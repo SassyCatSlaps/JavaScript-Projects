@@ -29,3 +29,22 @@ function Function_1() {
     var str = "Button Text Here!";
     document.getElementById("Button_Text").innerHTML = str; //str = local variable 'string'
 }
+
+//for the navbar
+
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+}
+
+//for event in body | it will display the exact date and time when button is clicked
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
