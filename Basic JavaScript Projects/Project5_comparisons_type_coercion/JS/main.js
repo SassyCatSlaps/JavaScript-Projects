@@ -30,6 +30,12 @@ document.write(DD === CC);
 document.write(DD === FF);
 document.write(FF === EE);
 
+//Write an expression combining a string and a number | i'm choosing to have this show in the consol.log vs using document.gEBI or doc.wrt | added just incase I missed it the first time
+var num = 111;
+var str = "The number here is going to show: ";
+var result = str + num;
+console.log(result);
+
 //using '==' operator to output true and false
 document.write(20 * 5 == 100);
 document.write(12 - 7 == 6);
@@ -58,7 +64,7 @@ var answer2 = isNaN(10);
 
 document.write("The Boolean output is: " + answer + "   " + answer2 + ".    ");
 
-//display infinity  |  cant get it to work? not sure why | tried a different number.pos/neg_infinity but still wont work
+//display infinity  |  FIXED!!!
 var Z = 1.7976931348623157E308;
 var XX = -1.7976931348623157E308;
 //var VV = Number.POSITIVE_INFINITY;
