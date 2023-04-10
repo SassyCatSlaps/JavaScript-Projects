@@ -6,9 +6,9 @@ function placeX_or_O(sqrNum) {
     if (!selectedSqrs.some(element => element.includes(sqrNum))) {
         let select = document.getElementById(sqrNum);
         if (currentPlayer === "X") {
-            select.style.backgroundImage = "url('Images/x.png')";      //keep track of x's and o's
+            select.style.backgroundImage = "url('Images/x_2.png')";      //keep track of x's and o's
         } else {
-            select.style.backgroundImage = "url('Images/o.png')";
+            select.style.backgroundImage = "url('Images/o_2.png')";
         }
         selectedSqrs.push(sqrNum + currentPlayer);
         checkWinCond();
@@ -18,7 +18,7 @@ function placeX_or_O(sqrNum) {
             currentPlayer = "X";
         }
         //adding in sounds
-        audio('./Media.place.mp3');
+        audio('./Media.place_2.mp3');
         //user is playing against comp, check see if comp turn
         if (currentPlayer === "O") {
             disableClick();
@@ -61,7 +61,7 @@ function checkWinCond() {
     else if (arrayHas("0O", "4O", "8O")) { drawWinLine(100, 100, 520, 520)}
     //check for game tie if above conditions are not true + all sqrs full
     else if (selectedSqrs.length >= 9) {
-        audio('./Media/tie.mp3');
+        audio('./Media/tie_2.mp3');
         setTimeout(function () { resetGame(); }, 500);      //.3 second timer before reset is performed
     }
     //checks for each win condition = "does array include 3 strings?" - 3 in a row = win in tictactoe game
@@ -104,7 +104,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         c.moveTo(x1, y1);
         c.lineTo(x, y);
         c.lineWidth = 10;
-        c.strokeStyle = "rgba(70, 255, 33, .8)";
+        c.strokeStyle = "rgba(251, 0, 255, .8)";
         c.stroke();  //draw all defined | below checks for endpoints 
         if (x1 <= x2 && y1 <= y2) {
             if (x < x2) { x += 10; }
@@ -126,7 +126,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
     }
     //no mouse click while 'win audio' active
     disableClick();
-    audio('./Media/winGame.mp3');
+    audio('./Media/winGame_2.mp3');
     animateLineDrawing();
     setTimeout(function () { clear(); resetGame(); }, 1000);
 }
