@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Arrow Function</title>
+    <script>
+        //simpFunct = function () {
+        //    return "This is a random function";
+        //}
+        //newFun = () => "This is an arrow funtion within my html file";
+        
+        //this is an example of using the arrow function internally
+        var vol;
+        vol = (val) => "Your sound options are: " + val;
+        document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("soundOptions").innerHTML = vol("distorted, undulating, clear, soft, bright, forced, heavy");
+        });
+    </script>
+</head>     
+
+<body>
+
+    <p id="soundOptions"></p>
+
+</body>
+
+</html>

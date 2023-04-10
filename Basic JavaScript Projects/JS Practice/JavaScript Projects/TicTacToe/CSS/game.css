@@ -1,0 +1,36 @@
+/* syling and sizing for table/canvas */
+.center-cont {
+    width: 608px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+td {
+    cursor: pointer;
+    border: 6px solid rgba(23, 199, 67, 0.742);
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    filter: contrast(3);
+}
+
+canvas {
+    position: absolute;     /* set canvas position to top=lft corner of cont. */
+    z-index: 10;    /* places canvas over top of table */
+    pointer-events: none;   /* set canvas to be invisible */
+}
+h1 {
+    text-align: center;
+    padding: 30px 0px 40px;
+    text-shadow:1px 1px 2px rgb(8, 3, 88), 0 .3em 1em rgb(102, 0, 255), 0 .1em 0.2em rgb(251, 0, 255);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Garamond, Arial, Helvetica, sans-serif;
+    word-spacing: .3em;
+    letter-spacing: .1em;
+}
