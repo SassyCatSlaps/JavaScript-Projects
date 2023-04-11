@@ -104,7 +104,7 @@ input[type="checkbox"] {
 
 #showText {
     width: 700px;
-    height: 200px;
+    height: 320px;
     margin: 0px auto;
     float: right;
     padding-top: 50px;
@@ -118,7 +118,7 @@ input[type="checkbox"] {
 
 #totalPrice {
     width: 700px;
-    height: 100px;
+    height: 200px;
     margin: 0px auto;
     float: right;
 }
