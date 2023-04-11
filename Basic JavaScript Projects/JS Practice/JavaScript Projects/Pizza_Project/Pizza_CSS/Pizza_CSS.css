@@ -1,0 +1,141 @@
+/* ZA MENU STYLING */
+
+body {
+    background: rgb(32, 80, 114);
+    background: radial-gradient(circle, rgba(32, 80, 114, 1) 4%, rgba(50, 157, 156, 1) 82%, rgba(123, 228, 149, 1) 100%);
+}
+
+h1 {
+    padding-top: 30px;
+    margin: 0 0px 20px;
+    font-family: 'Tropical Forest', sans-serif;
+    font-size: 110px;
+    text-align: center;
+    color: #205072;
+    font-weight: lighter;
+    text-shadow: -2px 2px 0 #CFF4D2,
+        2px 2px 0 #CFF4D2,
+        2px -2px 0 #CFF4D2,
+    -2px -2px 0 #CFF4D2;
+}
+
+h3 {
+    font-family: 'Original Surfer', sans-serif;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: justify;
+    color: #205072;
+    text-shadow: -1px 1px 0 #CFF4D2,
+        1px 1px 0 #CFF4D2,
+        1px -1px 0 #CFF4D2,
+    -1px -1px 0 #CFF4D2;
+}
+
+#menuFull {
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    padding-top: 35px;
+}
+
+#menuForm {
+    width: 700px;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.left {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-left: 250px;
+    padding-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CFF4D2;
+    text-shadow: -4px 5px 4px #205072;
+    word-spacing: 4px;
+    letter-spacing: .7px;
+    font-weight: 600;
+}
+
+.right {
+    width: 300px;
+    height: 300px;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CFF4D2;
+    text-shadow: -4px 5px 4px #205072;
+    word-spacing: 4px;
+    letter-spacing: .7px;
+    font-weight: 600;
+}
+
+.center {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CFF4D2;
+    text-shadow: -4px 5px 4px #205072;
+    word-spacing: 4px;
+    letter-spacing: .7px;
+    font-weight: 600;
+}
+
+input[type="radio"] {
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+#cart {
+    top: 0;
+    width: 700px;
+    height: 500px;
+    padding-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#showText {
+    width: 700px;
+    height: 200px;
+    margin: 0px auto;
+    float: right;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CFF4D2;
+    text-shadow: -4px 5px 4px #205072;
+    word-spacing: 4px;
+    letter-spacing: .7px;
+    font-weight: 600;
+}
+
+#totalPrice {
+    width: 700px;
+    height: 100px;
+    margin: 0px auto;
+    float: right;
+}
+
+#btnOrder {
+    margin: 50px 0px 0px 300px;
+    width: 120px;
+    height: 50px;
+    color: #205072;
+    background-color: #7BE495;
+    font-family: 'Original Surfer', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#btnOrder:hover {
+    background-color: #a0aeb89a;
+    color: #7BE495;
+}
