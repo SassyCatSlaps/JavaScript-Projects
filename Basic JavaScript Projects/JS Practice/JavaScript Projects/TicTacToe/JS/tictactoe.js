@@ -18,7 +18,7 @@ function placeX_or_O(sqrNum) {
             currentPlayer = "X";
         }
         //adding in sounds
-        audio('./Media.place_2.mp3');
+        audio('./Media/place_2.mp3');
         //user is playing against comp, check see if comp turn
         if (currentPlayer === "O") {
             disableClick();
