@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery practice</title>
+        <!-- direct user browser to use jQuery files below -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <script>
+    // !***! a single misplaced 'space' at end of '\' can completely break this code !***!
+    // $ = same thing as saying 'jQuery()' 
+    // document = entire html page | "ready = check to see if ready to do 'function' "  |  function below grabs html tag and adds string to it   
+    $(document).ready(function() {
+        //target <html> tag  | .append() = inserting content to end of each element  |  info that follows is a continuous string  |  '\' = continue onto next line
+        $("html").append(
+            "<body>\
+                <div id='container'>\
+                    <div id='inner'>\
+                        <h1>Basic jQuery</h1>\
+                        <p id='1'>Paragraph 1</p>\
+                        <p id='2'>Paragraph 2</p>\
+                        <p id='3'>Paragraph 3</p>\
+                    </div>\
+                </div>\
+            </body>"
+        );
+        // # = <id>
+        $("#2").css({"color":"red"});
+        //tell what to do when paragraph is clicked using effect
+        $("#3").click(function() {
+            $('h1').hide();
+        
+                    //JQUERY Challenge
+        // hide all paragraphs after a set amount of time
+        $("p").hide(2500);
+        // Tearing down click handlers on a selection
+        $("p").off("click");
+        });
+    });
+
+    </script>
+
+</html>
