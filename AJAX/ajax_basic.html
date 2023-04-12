@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Basic AJAX Demo</title>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+			<h2>Get The Latest Content:</h2>
+			<div class="content" id="content">
+				<input type="button" class="button" value="Get Content" id="btn_content" onclick="getContent();"/>  <!-- button presetup ready for call upon click -->
+			</div>
+		<script type="text/javascript">
+			
+            //setting up ajax using 4 steps - 1. setup xml request obj. 2. prepare the open ajax req. 3. define ajax response callback method
+            //step1
+            var ajax = new XMLHttpRequest();
+            //step2
+            ajax.open('GET', 'content.html');
+            //step3
+            ajax.onreadystatechange = function() {
+                if (ajax.readyState == 4) {
+                    document.getElementById('content').innerHTML = ajax.responseText;
+                }
+            }
+            //step4
+            function getContent() {
+                ajax.send();
+                document.getElementById('btn_content').style.display = 'none';
+            }
+
+        //ONREADYSTATECHANGE CHALLENGE  |  OnReadyStateChange = PROPERY OF XMLHttpRequest obj. sets a func to be called when the readyState prop of obj. changes
+        //readyState = prop. indicated the current state of the request with vals of 0(req. not initialized) - 4(finished and ready)
+        // create XMLHttpRequest object
+            var orsc = new XMLHttpRequest();
+        //set onreadystatechange property to a function
+            orsc.onreadystatechange = function () {
+        //check if request is finished and if response is ready
+                if (orsc.readyState === 4) {
+        //check response status code = OK
+                    if (orsc.status === 200) {
+        //process response text
+                        console.log(orsc.responseText);
+                    } else {
+        //deal with errors
+                        console.error('Request failed. Status ' + orsc.status);
+                    }
+                }
+            };
+        //open request
+            orsc.open('GET', 'https://example.com/api/data');
+        //send request
+            orsc.send();
+            
+		</script>
+        <!--</div>-->
+    </body>
+</html>
