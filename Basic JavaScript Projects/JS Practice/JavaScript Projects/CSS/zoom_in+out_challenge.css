@@ -1,0 +1,15 @@
+/* zoom in and out css */
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.zoomable-image {
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.zoomable-image:hover {
+    transform: scale(1.2);
+}

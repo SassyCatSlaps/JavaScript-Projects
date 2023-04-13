@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF=8">
+    <title> Form Challenge </title>
+    <link rel="stylesheet" type="text/css" href="./JavaScript Projects/CSS/form+popup_challenge.css">
+</head>
+
+<body>
+
+    <!-- form with phone# field goes here | using js form validation (did this in bootstrap) to create alert for user if field left empty -->
+    <!-- FORM + POP CHALLENGE -->
+    <h1>Enter Your Info Below</h1>
+
+    <!-- assign button to open the popup form -->
+    <button class="open-button" onclick="openForm()">Open Form</button>
+    <!-- form body -->
+    <div class="form-popup" id="newForm">
+        <form name="newForm" action="/action_page.php" class="form-container" onsubmit="return validateForm()" method="post">
+            <h2>User Credentials:</h2>
+            <label for="fname">First name:</label><br>
+            <input type="text" placeholder="Enter first name" id="fname" name="fname" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" placeholder="Enter last name" id="lname" name="lname" required><br>
+            <label for="phoneNum">Phone Number:</label><br>
+            <input type="text" placeholder="Enter phone number" id="phoneNum" name="phoneNum" required><br>
+            <input type="submit" value="Submit"><br><br>
+            <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+        </form>
+    </div>
+    <script src="JS/form+pop_challenge.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#pinkSection {
+    height: 700px;
+    background-color: rgb(227, 83, 211);
+}
+
+#greenSection {
+    height: 700px;
+    background-color: rgb(53, 236, 72);
+}

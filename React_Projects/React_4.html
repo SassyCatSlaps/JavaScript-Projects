@@ -1,2 +1,43 @@
 <!DOCTYPE html>
 <!-- so i jumped the shark and did this (NODE.JS ASSIGNMENT) a while back when i first made my react_1.html file -->
+<html>
+    <head>
+        <title>Final Challenges for JS course</title>
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+            <!-- FADE CHALLENGE -->
+        <style>
+            /* im just doing this css & js in the html file instead of externals */
+            body {
+                opacity: 1;
+                transition: 10s opacity;
+                }
+
+                body.fade-out {
+                opacity: 0;
+                transition: none;
+                }
+                /* the screen you see till page txt fades in */
+                html {
+                background-color: rgb(102, 62, 213);
+                }
+        </style>
+    </head>
+<body>
+    <!-- JS code for fade out effect -->
+    <script>
+        document.body.classList.add('fade-out');
+        //remove 'fade-out' class from body once page is loaded
+        window.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.remove('fade-out');
+            });
+    </script>
+
+    <!-- VW UNIT CHALLENGE -->
+    <h1 style="font-size: 6vw;">Hallo Süße!</h1>
+    <p style="font: 3vw;">Playing with the browser window's size will change how the font scales with the viewport!</p>
+
+
+</body>
+</html>
