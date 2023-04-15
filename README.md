@@ -12,10 +12,10 @@ sassycatslaps.github.io
 
 ## Links
 
-[Calculator](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Calculator)
-[Tic-Tac-Toe Game](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/JS%20Practice/JavaScript%20Projects/TicTacToe)
-[Pizza Menu](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/JS%20Practice/JavaScript%20Projects/Pizza_Project)
-[All JS Work](https://github.com/SassyCatSlaps/JavaScript-Projects)
+[Calculator](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Calculator)<br>
+[Tic-Tac-Toe Game](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/JS%20Practice/JavaScript%20Projects/TicTacToe)<br>
+[Pizza Menu](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/JS%20Practice/JavaScript%20Projects/Pizza_Project)<br>
+[All JS Work](https://github.com/SassyCatSlaps/JavaScript-Projects)<br>
 
 <!--  Screenshots | screen shots coming soon -->
 
