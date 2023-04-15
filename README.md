@@ -1,12 +1,12 @@
 # JavaScript-Projects
 sassycatslaps.github.io
 
-###This is where I will be submitting my Javascript porjects for my Javascript course with The Tech Academy.
+<h1>This is where I will be submitting my Javascript porjects for my Javascript course with The Tech Academy.</h1>
 
 
 # README.md
 
-<h1>PURPOSE:</h1>
+<h2>PURPOSE:</h2>
 
 <p>These are some basic projects I've done with JavaScript.</p>
 
