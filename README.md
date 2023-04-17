@@ -1,5 +1,6 @@
 # JavaScript-Projects
-sassycatslaps.github.io
+[WIP Portfolio V1](sassycatslaps.github.io)
+<br>
 
 <h1>This is where I will be submitting my Javascript porjects for my Javascript course with The Tech Academy.</h1>
 
@@ -9,7 +10,7 @@ sassycatslaps.github.io
 <h2>PURPOSE:</h2>
 
 <p>These are some basic projects I've done with JavaScript.</p>
-
+<br>
 ## Links
 
 [Calculator](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Calculator)<br>
@@ -37,11 +38,15 @@ sassycatslaps.github.io
 <h2>Pizza Menu</h2>
 
 <p>This project is a simple pizza menu that allows the user to simulate building and purchasing pizzas with different topping choices. It takes user input and calculates a price for the order based on what was selected.</p>
+<br>
+<br>
+<br>
 
 ## Author
 
 **Viktoriya Furlow**
 
+<br>
 ## Support
 
 Contributions, issues, and requests are very welcome!
