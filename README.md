@@ -9,9 +9,8 @@
 <br>
 
 <p>These are some basic projects I've done with JavaScript.</p>
-<br>
-<h2>Links</h2>
 
+<h2>Links</h2>
 <br>
 
 [Calculator](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Calculator)
