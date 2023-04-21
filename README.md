@@ -1,27 +1,34 @@
-# JavaScript-Projects
+#README.md
+#JavaScript-Projects
+<br>
 [WIP Portfolio V1](sassycatslaps.github.io)
 <br>
 
-<h1>This is where I will be submitting my Javascript porjects for my Javascript course with The Tech Academy.</h1>
-
-
-# README.md
-
-<h2>PURPOSE:</h2>
+<h1>PURPOSE:</h1>
+<h2>This is where I will be submitting my Javascript porjects for my Javascript course with The Tech Academy.</h2>
+<br>
+<br>
+<h1></h1>
 
 <p>These are some basic projects I've done with JavaScript.</p>
 <br>
-## Links
+##Links
 
-[Calculator](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Calculator)<br>
-[Tic-Tac-Toe Game](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/JS%20Practice/JavaScript%20Projects/TicTacToe)<br>
-[Pizza Menu](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/JS%20Practice/JavaScript%20Projects/Pizza_Project)<br>
-[All JS Work](https://github.com/SassyCatSlaps/JavaScript-Projects)<br>
+[Calculator](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Calculator)
+<br>
+[Tic-Tac-Toe Game](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/JS%20Practice/JavaScript%20Projects/TicTacToe)
+<br>
+[Pizza Menu](https://github.com/SassyCatSlaps/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/JS%20Practice/JavaScript%20Projects/Pizza_Project)
+<br>
+[All JS Work](https://github.com/SassyCatSlaps/JavaScript-Projects)
+<br>
 
-<!--  Screenshots | screen shots coming soon -->
+<!--  Screenshots | screenshot gifs coming soon -->
 
 
-## JS PROJECT DESCRIPTIONS:
+##JS PROJECT DESCRIPTIONS:
+
+<br>
 
 <h2>Calculator</h2>
 
@@ -45,9 +52,11 @@
 ## Author
 
 **Viktoriya Furlow**
-
 <br>
-## Support
+<br>
+<br>
+
+##Support
 
 Contributions, issues, and requests are very welcome!
 Thanks for dropping by!
