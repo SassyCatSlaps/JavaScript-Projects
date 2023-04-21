@@ -4,8 +4,8 @@
 [WIP Portfolio V1](sassycatslaps.github.io)
 <br>
 
-<h1>PURPOSE:</h1>
-<h2>This is where I will be submitting my Javascript porjects for my Javascript course with The Tech Academy.</h2>
+<h2>PURPOSE:</h2>
+<h3>This is where I will be submitting my Javascript porjects for my Javascript course with The Tech Academy.</h3>
 <br>
 
 <p>These are some basic projects I've done with JavaScript.</p>
@@ -26,7 +26,7 @@
 <h1></h1>
 <br>
 
-<h2> JS PROJECT DESCRIPTIONS: </h2>
+<h1> JS PROJECT DESCRIPTIONS: </h1>
 
 <br>
 
