@@ -23,9 +23,10 @@
 <br>
 
 <!--  Screenshots | screenshot gifs coming soon -->
+<h1></h1>
+<br>
 
-
-##JS PROJECT DESCRIPTIONS:
+<h2> JS PROJECT DESCRIPTIONS: </h2>
 
 <br>
 
