@@ -38,7 +38,7 @@
 
 <br>
 
-[JS Calculator](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVjYWRhNWJhZWM2MGQ3YWI3YmI0NTdlNjc2YzdiNjU1MWI2YjNlOSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/a8mVIiyYDVqGTybIi2/giphy.gif)
+![JS Calculator](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVjYWRhNWJhZWM2MGQ3YWI3YmI0NTdlNjc2YzdiNjU1MWI2YjNlOSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/a8mVIiyYDVqGTybIi2/giphy.gif)
 
 
 <br>
