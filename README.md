@@ -38,6 +38,12 @@
 
 <br>
 
+[JS Calculator](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVjYWRhNWJhZWM2MGQ3YWI3YmI0NTdlNjc2YzdiNjU1MWI2YjNlOSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/a8mVIiyYDVqGTybIi2/giphy.gif)
+
+
+<br>
+<br>
+
 <h2>Tic-Tac-Toe Game</h2>
 
 <p>A simple but classic game of tic-tac-toe. This is a user vs PC, RNG game. The program places tolkens at random. The game has audio effects and customized tolkens for each player instead of the usual X's and O's.</p>
