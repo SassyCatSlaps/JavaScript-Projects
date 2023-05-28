@@ -4,7 +4,6 @@
 [WIP Portfolio V1](sassycatslaps.github.io)
 <br>
 <br>
-<br>
 
 <h2>PURPOSE:</h2>
 <h3>This is where I will be submitting my Javascript porjects for my Javascript course with The Tech Academy.</h3>
@@ -50,10 +49,20 @@
 
 <br>
 
+![TicTackToe Game](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmZlYTJkYTQ4YzExN2U4YTYzNDIzMGFmNGU5ZGYwZGY1MTQ4NGE0MCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/A4zE6QDcua9kqbObis/giphy.gif)
+
+
+<br>
+<br>
+
 <h2>Pizza Menu</h2>
 
 <p>This project is a simple pizza menu that allows the user to simulate building and purchasing pizzas with different topping choices. It takes user input and calculates a price for the order based on what was selected.</p>
+
 <br>
+
+![JS Menu](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjcyNDE2YjAzNjJiYmZlODYzOGQ4OGFlMTA2ODE5NDZiMjAzOTc3MCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/RnZsIc4NcMrNePPXXH/giphy.gif)
+
 <br>
 <br>
 
